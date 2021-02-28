@@ -1,0 +1,2 @@
+# Blazor.IndexedDB
+Blazor.IndexedDB
