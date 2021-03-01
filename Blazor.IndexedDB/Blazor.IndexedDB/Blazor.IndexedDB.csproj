@@ -10,7 +10,7 @@
     <Version>1.0.1.1</Version>
     <Authors>Jinjinov</Authors>
     <Description>A Blazor library for accessing IndexedDB</Description>
-    <RepositoryUrl>https://github.com/Jinjinov/Blazor.IndexedDB/</RepositoryUrl>
+    <RepositoryUrl>https://github.com/Jinjinov/Blazor.IndexedDB.git</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>Blazor IndexedDB</PackageTags>
     <Copyright>Jinjinov</Copyright>
@@ -28,6 +28,7 @@
 - 1.0.1:
     - Original code by https://github.com/Reshiru
     - Original repository at https://github.com/Reshiru/Blazor.IndexedDB.Framework</PackageReleaseNotes>
+    <PackageProjectUrl>https://github.com/Jinjinov/Blazor.IndexedDB</PackageProjectUrl>
   </PropertyGroup>
 
   <ItemGroup>
