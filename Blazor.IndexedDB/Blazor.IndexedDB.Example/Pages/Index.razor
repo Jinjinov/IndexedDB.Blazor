@@ -1,0 +1,24 @@
+﻿@page "/"
+
+@inject IIndexedDbFactory DbFactory
+
+<button @onclick="@(args => Create(args))">Click me</button>
+
+@code{
+    protected async Task Create(MouseEventArgs e)
+    {
+        using (var db = await this.DbFactory.Create<ExampleDb>())
+        {
+            for (int i = 0; i < 10; i++)
+            {
+                db.People.Add(new Person()
+                {
+                    FirstName = Guid.NewGuid().ToString(),
+                    LastName = Guid.NewGuid().ToString()
+                });
+            }
+
+            await db.SaveChanges();
+        }
+    }
+}
