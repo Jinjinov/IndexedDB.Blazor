@@ -7,7 +7,7 @@
     <RazorLangVersion>3.0</RazorLangVersion>
     <LangVersion>8.0</LangVersion>
     <AssemblyName>IndexedDB.Blazor</AssemblyName>
-    <Version>1.1.0</Version>
+    <Version>1.1.1</Version>
     <Authors>Jinjinov</Authors>
     <Description>A Blazor library for accessing IndexedDB</Description>
     <RepositoryUrl>https://github.com/Jinjinov/IndexedDB.Blazor.git</RepositoryUrl>
@@ -17,7 +17,7 @@
     <LicenseUrl>https://github.com/Jinjinov/IndexedDB.Blazor/blob/master/LICENSE</LicenseUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageId>IndexedDB.Blazor</PackageId>
-    <PackageReleaseNotes>- 1.1.0:
+    <PackageReleaseNotes>- 1.1.1:
     - Upgraded from .NET Core 3.0.0-preview to .NET Core 3.2.1
     - Upgraded form netstandard2.0 to netstandard2.1
     - Upgraded form C# 7.3 to C# 8.0

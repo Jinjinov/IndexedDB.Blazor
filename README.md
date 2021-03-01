@@ -4,7 +4,7 @@ An easy way to interact with IndexedDB and make it feel like EF Core but `async`
 
 ## Version history
 
-- 1.1.0:
+- 1.1.1:
     - Upgraded from `.NET Core 3.0.0-preview` to `.NET Core 3.2.1`
     - Upgraded form `netstandard2.0` to `netstandard2.1`
     - Upgraded form `C# 7.3` to `C# 8.0`
@@ -25,7 +25,7 @@ PM> Install-Package IndexedDB.Blazor
 ```
 Or include it in your project file:
 
-    <PackageReference Include="IndexedDB.Blazor" Version="1.1.0" />
+    <PackageReference Include="IndexedDB.Blazor" Version="1.1.1" />
 
 ## Features
 - Connect and create database
