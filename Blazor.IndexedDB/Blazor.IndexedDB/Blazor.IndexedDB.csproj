@@ -17,6 +17,17 @@
     <LicenseUrl>https://github.com/Jinjinov/Blazor.IndexedDB/blob/master/LICENSE</LicenseUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageId>Blazor.IndexedDB</PackageId>
+    <PackageReleaseNotes>- 1.0.1.1:
+    - Upgraded from .NET Core 3.0.0-preview to .NET Core 3.2.1
+    - Upgraded form netstandard2.0 to netstandard2.1
+    - Upgraded form C# 7.3 to C# 8.0
+    - Upgraded TG.Blazor.IndexedDB from 0.9.0-beta to 1.5.0-preview
+    - Changed namespace Blazor.IndexedDB.Framework to namespace Blazor.IndexedDB
+    - Changed private IndexedDBManager connector; to protected IndexedDBManager connector; in IndexedDb
+    - Changed IndexedSet&lt;T&gt; : IEnumerable&lt;T&gt; to IndexedSet&lt;T&gt; : ICollection&lt;T&gt;
+- 1.0.1:
+    - Original code by https://github.com/Reshiru
+    - Original repository at https://github.com/Reshiru/Blazor.IndexedDB.Framework</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
