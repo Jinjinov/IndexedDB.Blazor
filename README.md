@@ -17,23 +17,21 @@ An easy way to interact with IndexedDB and make it feel like EF Core but `async`
     - Original repository at [Blazor.IndexedDB.Framework](https://github.com/Reshiru/Blazor.IndexedDB.Framework)
 
 ## NuGet installation
-```powershell
-PM> Install-Package Blazor.IndexedDB
-```
+The NuGet package is at: https://www.nuget.org/packages/IndexedDB.Blazor
 
-## Current features
+Either install it from command line:
+```powershell
+PM> Install-Package IndexedDB.Blazor
+```
+Or include it in your project file:
+
+    <PackageReference Include="IndexedDB.Blazor" Version="1.0.1.1" />
+
+## Features
 - Connect and create database
 - Add record
 - Remove record
 - Edit record
-
-## Planned features or optimizations 
-- FK implementation
-- Optimize change tracker (currently using snapshotting mechanism based on using hashes)
-- Query data without loading everything first (use `async` + `yield` with `IAsyncEnumerable`)
-- Remove PK dependencies from IndexedSet
-- Versioning (eg. merging database)
-- SaveChanges should await all transactions and rollback everything within the scope if something went wrong while other data was already saved
 
 ## How to use
 1. Add `TG.Blazor.IndexedDB/indexedDb.Blazor.js` to your `index.html`

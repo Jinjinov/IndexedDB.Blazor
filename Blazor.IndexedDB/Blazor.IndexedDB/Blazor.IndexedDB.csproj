@@ -16,7 +16,7 @@
     <Copyright>Jinjinov</Copyright>
     <LicenseUrl>https://github.com/Jinjinov/Blazor.IndexedDB/blob/master/LICENSE</LicenseUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <PackageId>Blazor.IndexedDB</PackageId>
+    <PackageId>IndexedDB.Blazor</PackageId>
     <PackageReleaseNotes>- 1.0.1.1:
     - Upgraded from .NET Core 3.0.0-preview to .NET Core 3.2.1
     - Upgraded form netstandard2.0 to netstandard2.1
