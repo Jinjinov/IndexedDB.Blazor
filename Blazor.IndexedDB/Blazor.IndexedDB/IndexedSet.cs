@@ -114,7 +114,7 @@ namespace Blazor.IndexedDB
 
         IEnumerator IEnumerable.GetEnumerator()
         {
-            var enumerator =  this.GetEnumerator();
+            var enumerator = this.GetEnumerator();
 
             return enumerator;
         }

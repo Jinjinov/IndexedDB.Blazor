@@ -78,7 +78,7 @@ namespace Blazor.IndexedDB
             foreach (var table in tables)
             {
                 var indexedSet = table.GetValue(this);
-                
+
                 // Find pk here to reduce required save time if more than one row has been deleted 
                 PropertyInfo pkProperty = null;
 
