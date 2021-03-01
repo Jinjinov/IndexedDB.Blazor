@@ -46,7 +46,7 @@ namespace Blazor.IndexedDB
 
         public bool IsReadOnly => false;
 
-        public int Count => this.Count();
+        public int Count => this.internalItems.Count();
 
         public void Add(T item)
         {
