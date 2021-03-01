@@ -1,5 +1,5 @@
-﻿using Blazor.IndexedDB.Attributes;
-using Blazor.IndexedDB.Extensions;
+﻿using IndexedDB.Blazor.Attributes;
+using IndexedDB.Blazor.Extensions;
 using Microsoft.JSInterop;
 using System;
 using System.Collections.Generic;
@@ -11,7 +11,7 @@ using System.Reflection;
 using System.Threading.Tasks;
 using TG.Blazor.IndexedDB;
 
-namespace Blazor.IndexedDB
+namespace IndexedDB.Blazor
 {
     public abstract class IndexedDb : IDisposable
     {

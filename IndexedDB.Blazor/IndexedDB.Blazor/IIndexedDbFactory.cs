@@ -1,6 +1,6 @@
 ﻿using System.Threading.Tasks;
 
-namespace Blazor.IndexedDB
+namespace IndexedDB.Blazor
 {
     public interface IIndexedDbFactory
     {

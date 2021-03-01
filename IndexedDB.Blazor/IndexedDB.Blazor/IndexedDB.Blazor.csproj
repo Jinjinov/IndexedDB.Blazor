@@ -6,15 +6,15 @@
     <IsPackable>true</IsPackable>
     <RazorLangVersion>3.0</RazorLangVersion>
     <LangVersion>8.0</LangVersion>
-    <AssemblyName>Blazor.IndexedDB</AssemblyName>
+    <AssemblyName>IndexedDB.Blazor</AssemblyName>
     <Version>1.1.0</Version>
     <Authors>Jinjinov</Authors>
     <Description>A Blazor library for accessing IndexedDB</Description>
-    <RepositoryUrl>https://github.com/Jinjinov/Blazor.IndexedDB.git</RepositoryUrl>
+    <RepositoryUrl>https://github.com/Jinjinov/IndexedDB.Blazor.git</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>Blazor IndexedDB</PackageTags>
     <Copyright>Jinjinov</Copyright>
-    <LicenseUrl>https://github.com/Jinjinov/Blazor.IndexedDB/blob/master/LICENSE</LicenseUrl>
+    <LicenseUrl>https://github.com/Jinjinov/IndexedDB.Blazor/blob/master/LICENSE</LicenseUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageId>IndexedDB.Blazor</PackageId>
     <PackageReleaseNotes>- 1.1.0:
@@ -22,13 +22,13 @@
     - Upgraded form netstandard2.0 to netstandard2.1
     - Upgraded form C# 7.3 to C# 8.0
     - Upgraded TG.Blazor.IndexedDB from 0.9.0-beta to 1.5.0-preview
-    - Changed namespace Blazor.IndexedDB.Framework to namespace Blazor.IndexedDB
+    - Changed namespace Blazor.IndexedDB.Framework to namespace IndexedDB.Blazor
     - Changed private IndexedDBManager connector; to protected IndexedDBManager connector;
     - Changed IndexedSet&lt;T&gt; : IEnumerable&lt;T&gt; to IndexedSet&lt;T&gt; : ICollection&lt;T&gt;
 - 1.0.1:
     - Original code by https://github.com/Reshiru
     - Original repository at https://github.com/Reshiru/Blazor.IndexedDB.Framework</PackageReleaseNotes>
-    <PackageProjectUrl>https://github.com/Jinjinov/Blazor.IndexedDB</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/Jinjinov/IndexedDB.Blazor</PackageProjectUrl>
   </PropertyGroup>
 
   <ItemGroup>

@@ -2,7 +2,7 @@
 using System.Diagnostics;
 using System.Linq.Expressions;
 
-namespace Blazor.IndexedDB.Extensions
+namespace IndexedDB.Blazor.Extensions
 {
     public static class IndexedSetExtensions
     {

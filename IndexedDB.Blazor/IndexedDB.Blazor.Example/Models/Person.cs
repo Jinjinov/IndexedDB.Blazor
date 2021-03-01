@@ -2,7 +2,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace Blazor.IndexedDB.Example.Models
+namespace IndexedDB.Blazor.Example.Models
 {
     public class Person
     {

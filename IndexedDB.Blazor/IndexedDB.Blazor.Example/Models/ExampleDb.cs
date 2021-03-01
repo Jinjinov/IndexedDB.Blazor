@@ -1,6 +1,6 @@
 ﻿using Microsoft.JSInterop;
 
-namespace Blazor.IndexedDB.Example.Models
+namespace IndexedDB.Blazor.Example.Models
 {
     public class ExampleDb : IndexedDb
     {

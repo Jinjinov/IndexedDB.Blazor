@@ -2,7 +2,7 @@
 using Microsoft.Extensions.DependencyInjection;
 using System.Threading.Tasks;
 
-namespace Blazor.IndexedDB.Example
+namespace IndexedDB.Blazor.Example
 {
     public class Program
     {
