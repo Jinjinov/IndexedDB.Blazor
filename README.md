@@ -36,7 +36,11 @@ PM> Install-Package Blazor.IndexedDB
 - SaveChanges should await all transactions and rollback everything within the scope if something went wrong while other data was already saved
 
 ## How to use
-1. Register `IndexedDbFactory` as a service.
+1. Add `TG.Blazor.IndexedDB/indexedDb.Blazor.js` to your `index.html`
+```html
+<script src="_content/TG.Blazor.IndexedDB/indexedDb.Blazor.js"></script>
+```
+2. Register `IndexedDbFactory` as a service.
 ```CSharp
 services.AddSingleton<IIndexedDbFactory, IndexedDbFactory>();
 ```
@@ -44,7 +48,7 @@ services.AddSingleton<IIndexedDbFactory, IndexedDbFactory>();
 
 - `IndexedDbFactory` requires an instance of `IJSRuntime` which should normally already be registered.
 
-2. Create any code first database model and inherit from `IndexedDb`. Only properties with the type `IndexedSet<>` will be used, any other properties will be ignored.
+3. Create any code first database model and inherit from `IndexedDb`. Only properties with the type `IndexedSet<>` will be used, any other properties will be ignored.
 ```CSharp
 public class ExampleDb : IndexedDb
 {
@@ -63,7 +67,7 @@ public class Person
 }
 ```
 
-3. Now you can start using your database.
+4. Now you can start using your database.
 
 - Usage in Razor via inject: `@inject IIndexedDbFactory DbFactory`
 
