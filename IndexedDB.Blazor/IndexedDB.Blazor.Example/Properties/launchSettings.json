@@ -15,7 +15,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "Blazor.IndexedDB.Example": {
+    "IndexedDB.Blazor.Example": {
       "commandName": "Project",
       "launchBrowser": true,
       "environmentVariables": {

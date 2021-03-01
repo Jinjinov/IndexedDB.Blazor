@@ -1,4 +1,4 @@
-# Blazor.IndexedDB
+# IndexedDB.Blazor
 
 An easy way to interact with IndexedDB and make it feel like EF Core but `async`.
 
