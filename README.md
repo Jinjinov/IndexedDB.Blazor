@@ -9,7 +9,7 @@ An easy way to interact with IndexedDB and make it feel like EF Core but `async`
     - Upgraded form `netstandard2.0` to `netstandard2.1`
     - Upgraded form `C# 7.3` to `C# 8.0`
     - Upgraded `TG.Blazor.IndexedDB` from `0.9.0-beta` to `1.5.0-preview`
-    - Changed `namespace Blazor.IndexedDB.Framework` to `namespace Blazor.IndexedDB`
+    - Changed `namespace Blazor.IndexedDB.Framework` to `namespace IndexedDB.Blazor`
     - Changed `private IndexedDBManager connector;` to `protected IndexedDBManager connector;` in `IndexedDb`
     - Changed `IndexedSet<T> : IEnumerable<T>` to `IndexedSet<T> : ICollection<T>`
 - 1.0.1:
